@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <InstaApp/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import InstaApp from './components/insta-app.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    InstaApp
   }
 }
 </script>
